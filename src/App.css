@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.file-upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.file-upload-container h2 {
+  font-size: 1.5rem;
+}
+
+.file-upload-container button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.file-upload-container p {
+  margin-top: 15px;
+  color: green;
+}
+button {
+  transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
